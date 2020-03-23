@@ -1,0 +1,581 @@
+/* Extra small devices (phones, less than 768px) 
+=========================================================*/
+@media screen and (min-width:320px) and (max-width: 767px) {
+body{
+	overflow-x: hidden;
+}
+.section-padding{
+	padding: 50px 0;
+}
+/* Navbar */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+border-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #fff;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+background-color: transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: transparent;
+}
+li.dropdown ul.dropdown-menu{
+	background: #ac4248 none repeat scroll 0 0;
+	color: #222;
+	margin-left: 120px;
+	top: 5px;
+}
+li.dropdown.open ul.dropdown-menu li a{
+	background: #ac4248 none repeat scroll 0 0;
+	width: 160px;
+}
+li.dropdown.open ul.dropdown-menu li:hover{
+	background: #ff7e97 none repeat scroll 0 0;
+	width: 160px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  border-bottom: 0px solid #ffeb3b;
+}
+.logo {
+margin-top: -15px;
+}
+.logo h2 {
+color: #fff;
+font-size: 30px;
+}
+
+#slider-seciton {
+	padding: 70px 0;
+}
+.carousel-control {
+  top: 25px;
+}
+/* About */
+.service-header p {
+	padding-bottom: 40px;
+}
+.about-cont{
+	margin-top: 40px;
+}
+.about-cont p {
+	padding-bottom: 0;
+}
+.about-img{
+	padding-bottom: 10px;
+}
+.about-main {
+	padding-top: 50px;
+	text-align: center;
+}
+
+/* Service */
+
+.weddy-text p {
+	padding-bottom: 50px;
+}
+.weddy-text h3 {
+	padding-top: 10px;
+}
+.weddy-main {
+padding-top: 0;
+}
+.weddy-cont{
+text-align: center;
+}
+.weddy-img img{
+margin: 0 auto;
+}
+.weddy-comn {
+float: inherit;
+margin-top: 0px;
+}
+#weddy-services.section-padding{
+padding-bottom: 30px;
+}
+.weddy-text p {
+padding-bottom: 30px;
+}
+
+
+/* gallery */
+.filter_menu {
+    text-align: center;
+}
+.filter_menu li {
+    margin: 10px 0;
+}
+.grid {
+     margin-top: 0;
+}
+    
+.work_img{
+    max-width: 300px;
+    margin: 10px auto;
+}
+.work_img img{
+    width: 100%;
+}
+
+/* Counter */
+.main-counter {
+padding-top: 0;
+}
+.counter {
+margin: 30px auto -30px;
+text-align: center;
+}
+
+/* Weddy shop */
+.weddy-store-carousel {
+margin-left: 0;
+}
+.carousel-common {
+margin-left: 0;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-prev {
+left: 0;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next {
+right: 0;
+}
+.carousel-common img{
+margin: 0 auto;
+}
+
+/* Team */
+.team-icon {
+margin: 20px auto 0;
+width: 100%;
+}
+.team {
+margin-top: 50px;
+}
+/* testimonial */
+#testimonial{
+    padding: 50px 0;
+}
+/* Blog */
+.blog-all-cont img{
+text-align: center;
+margin: 0 auto;
+width: 100%;
+}
+.blog-all-cont .blog-wedding {
+bottom: 9px;
+left: 0;
+padding: 10px 15px;
+position: inherit;
+}
+.blog-btn {
+bottom: -10px;
+left: 0;
+padding-top: 20px;
+position: inherit;
+}
+.blog-all-cont {
+margin-top: 50px;
+padding-bottom: 0px;
+}
+
+/* Subscribe */
+#subscribe {
+margin-top: 20px;
+}
+
+/* Contact */
+.submit-btn{
+padding-top: 50px;
+text-align: center;
+}
+.subscribe-cont{
+float: inherit;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 50px;
+}
+#email{
+padding: 15px 0;
+}
+#submit{
+padding: 15px 0;
+}
+.all-contact-bottom-div {
+padding-top: 50px;
+}
+.contact {
+margin: 50px auto 0;
+}
+.all-contact-div{
+padding-top: 0px;
+}
+.messege {
+margin-left: 0;
+}
+.form-left {
+float: inherit;
+}
+.form-comn {
+width: 100%;
+}
+.messege-area {
+width: 100%;
+}
+.weddy-contact-form input {
+  width: 280px;
+}
+
+/* Blog post mobile device css
+========================================*/
+.tag li {
+margin: 2px 0;
+width: 69px;
+}
+.team-icon {
+margin: 20px auto 0;
+width: 100%;
+}
+.blog-all-cont img{
+text-align: center;
+margin: 0 auto;
+width: 100%;
+}
+.blog-all-cont .blog-wedding {
+bottom: 9px;
+left: 0;
+padding: 10px 15px;
+position: inherit;
+}
+.blog-btn {
+bottom: -9px;
+left: 0;
+padding-top: 20px;
+position: inherit;
+}
+.blog-all-cont {
+padding-bottom: 0;
+}
+.quote {
+padding: 30px 0;
+}
+.simple-share-cont {
+padding: 15px 0;
+}
+.share-fb {
+padding: 5px 20px;
+}
+.share-twt {
+padding: 5px 15px;
+}
+.comntdetails-icon i {
+font-size: 40px;
+}
+.comnt-box input {
+margin-bottom: 25px;
+padding: 12px 20px;
+}
+.comnt-para h4 {
+padding-top: 15px;
+}
+.small-comment-para{
+padding-left: 17px;
+}
+.comnt-box {
+margin-left: 0;
+}
+}
+
+/* Extra small devices (phones, less than 380px) 
+=========================================================*/
+@media screen and (min-width:320px) and (max-width: 379px){
+body{
+	overflow-x: hidden;
+}
+.next-box{
+margin-top: 75px;
+margin-bottom: 100px;
+}
+.next-box li, .next-box a i{
+background: #ff7e97;
+color: #fff;
+height: 30px;
+width: 30px;
+display: inline-block;
+line-height: 30px;
+margin: 0 3px;
+text-align: center;
+}
+.next-box li:hover{
+background: #b02e47
+}
+}
+
+/* Small devices (tablets, 768px and up) 
+=========================================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+body{
+	overflow-x: hidden;
+}
+.nav>li>a {
+padding: 10px 14px;
+}
+
+.about-cont{
+  padding-top: 80px;
+  text-align: center;
+}
+
+.about-cont p {
+padding-bottom: 0;
+}
+.about-img{
+padding-bottom: 10px;
+}
+
+/* gallery */
+.filter_menu {
+    text-align: center;
+}
+.filter_menu li {
+    margin: 10px 0;
+}
+.grid {
+     margin-top: 0;
+}
+.work_img_cont p{
+    font-weight: 600;
+    font-size: 13px;
+}
+.work_img_cont p, .work_img_cont span{
+    color: #fff;
+    font-size: 12px;
+}
+.work_img img{
+    width: 100%;
+}
+
+.carousel-common img{
+margin-right: 10px;
+}
+.carousel-common {
+margin-left: -15px;
+}
+.owl-carousel .owl-wrapper-outer {
+margin-left: -15px;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-prev {
+left: -80px;
+top: 105px;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next {
+right: -35px;
+top: 105px;
+}
+.blog-all-cont img{
+text-align: center;
+margin: 0 auto;
+width: 100%;
+}
+.blog-all-cont .blog-wedding {
+bottom: 9px;
+left: 0;
+padding: 10px 15px;
+position: inherit;
+}
+.blog-btn {
+bottom: -48px;
+left: 0;
+padding-top: 20px;
+position: inherit;
+}
+
+/* Contact */
+.submit-btn{
+padding-top: 50px;
+text-align: center;
+}
+.subscribe-cont{
+float: inherit;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 50px;
+}
+.contact {
+margin: 50px auto 0;
+}
+.all-contact-div {
+padding-top: 30px;
+}
+.messege {
+margin-left: 0;
+}
+.form-left {
+float: inherit;
+}
+.form-comn {
+width: 70%;
+margin: 0 auto;
+}
+.messege-area {
+width: 70%;
+margin: 0 auto;
+}
+.contact-form{
+text-align: center;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-prev {
+left: 0;
+top: 102px;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next {
+right: 40px;
+top: 102px;
+}
+.team-icon {
+margin: 20px auto 0;
+width: 70%;
+}
+.contact {
+height: 220px;
+width: 220px;
+}
+.contact-cont {
+padding-top: 50px;
+}
+.team {
+margin-top: 60px;
+}
+
+/* Blog post tab device css
+========================================*/
+.blog-all-cont img{
+text-align: center;
+margin: 0 auto;
+width: 100%;
+}
+.blog-all-cont .blog-wedding {
+bottom: 9px;
+left: 0;
+padding: 10px 15px;
+position: inherit;
+}
+.blog-btn {
+bottom: -48px;
+left: 0;
+padding-top: 20px;
+position: inherit;
+}
+.comnt-box {
+margin-left: 20px;
+}
+.quote {
+padding: 30px 55px;
+}
+}
+
+
+/* Landscape Mobile (min-width: 480px and max-width: 767px)
+=========================================================*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+body{
+	overflow-x: hidden;
+}
+}
+
+/* Medium Desktop Device (min-width: 992px and max-width: 1199px)
+=========================================================*/
+@media only screen and (min-width:992px) and (max-width:1199px){
+body{
+	overflow-x: hidden;
+}
+
+.blog-all-cont img{
+text-align: center;
+margin: 0 auto;
+width: 100%;
+}
+.blog-all-cont .blog-wedding {
+bottom: 9px;
+left: 0;
+padding: 10px 15px;
+position: inherit;
+}
+.blog-btn {
+bottom: -48px;
+left: 0;
+padding-top: 20px;
+position: inherit;
+}
+.blog-all-cont {
+padding-bottom: 0;
+}
+.blog-btn {
+bottom: -9px;
+}
+.messege-area {
+width: 80%;
+}
+.work_img_cont p{
+    font-weight: 600;
+    font-size: 13px;
+}
+.work_img_cont p, .work_img_cont span{
+    color: #fff;
+    font-size: 12px;
+}
+
+/* Blog
+========================================*/
+.blog-all-cont {
+padding-bottom: 0;
+}
+.blog-all-cont img{
+text-align: center;
+margin: 0 auto;
+width: 100%;
+}
+.blog-all-cont .blog-wedding {
+bottom: 9px;
+left: 0;
+padding: 10px 15px;
+position: inherit;
+}
+.blog-btn {
+bottom: -9px;
+left: 0;
+padding-top: 20px;
+position: inherit;
+}
+.messege-area {
+width: 80%;
+}
+.comnt-box {
+margin-left: 20px;
+}
+.tag li {
+width: 67px;
+margin: 2px 0;
+}
+}
+/* Video Section Extra small devices (phones, less than 768px) 
+=========================================================*/
+@media screen and (min-width:320px) and (max-width: 767px) {
+    /* Video Section */
+    #video_section h1 {
+        background: rgba(242, 121, 138, .7);
+        font-size: 14px;
+        margin-top: 10%;
+        padding: 10px 10px;
+        width: 280px;
+    }
+    #video_section {
+        height: 200px;
+        width: 100%;
+    }
+}
