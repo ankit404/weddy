@@ -910,7 +910,7 @@ img{
    13.0 - CONTACT TOP SECTION 
    ================================== */
 .all-contact-div{
-    padding-top: 80px;
+    padding: 80px;
 }
 .contact{
     border: 10px solid #ebebeb;
